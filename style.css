@@ -1,9 +1,9 @@
 body{
-    height: 800px;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-color: lightyellow
+    background-color: lightyellow;
 }
 
 #profilePicture{
@@ -19,6 +19,13 @@ h2{
     font-family: 'Press Start 2P', cursive;
 }
 
+.profileContainer{
+    padding-top: 40px;
+    text-align:start;
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+}
 .projectItems{
     display: flex;
     flex-direction: row;
@@ -57,4 +64,10 @@ a:hover {
 
 a:active {
     text-decoration: none;
+}
+
+li{
+    font-family: 'Press Start 2P', cursive;
+    font-size: x-small;
+    padding-top: 35px;
 }
